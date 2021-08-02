@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+    padding:0;
+}
+body{
+    background-image: linear-gradient(to right, rgb(255, 236, 210,0.8) 0%, rgb(252, 182, 159,0.8) 100%),url("https://st.depositphotos.com/1557418/2870/v/600/depositphotos_28701085-stock-illustration-dishes-icon-set.jpg");
+    padding:1px;
+}
+
+.recipesbox{
+    width:100%;
+    padding:10px;
+    /* margin:10px; */
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;;
+    flex-wrap: wrap;
+    position: relative;
+}
+.loading{
+    width:80%;
+    position: absolute;
+    top:0;
+}
+@media (min-width:760px){
+    
+    .loading{
+        width:30%;
+    }
+    
+}
+
+@keyframes comefromleft {
+    0%{
+        transform: translateX(-30%);
+        opacity:0.5;
+    }
+    
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes comefromright {
+    0%{
+        transform: translateX(30%);
+        opacity:0.5;
+    }
+    
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
