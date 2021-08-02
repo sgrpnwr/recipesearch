@@ -8,7 +8,7 @@ const App = () => {
   const APP_ID = "8e7c0c48";
   const APP_KEY = "a2be49acfa8d7bb350167b1b348b6f79";
   //   const search_term = "burger";
-  const [search, setSearch] = useState("Burger");
+  const [search, setSearch] = useState("");
   const [query, setQuery] = useState("Pasta");
   const [recipes, setRecipes] = useState([]);
   const [image, setImage] = useState(
