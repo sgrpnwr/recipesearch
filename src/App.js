@@ -41,7 +41,7 @@ const App = () => {
     setRecipes(data.hits);
     setImage("");
     if (data.hits.length === 0) {
-      setImage("https://i.ibb.co/3c65f5W/404-unscreen.gif");
+      setImage("https://i.ibb.co/RjkPyhN/404.png");
     }
   };
 
